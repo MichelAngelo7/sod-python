@@ -3,8 +3,9 @@ from datetime import datetime
 from expenses import Expenses
 
 def main():
-  newExpenser = Expenses("Mercado Livre", -150)
-  print(newExpenser)
+  newUser = ("Michel", 31)
+  
+  print(newUser)
 
 if __name__ == "__main__":
     main()
