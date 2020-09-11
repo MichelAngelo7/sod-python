@@ -7,3 +7,7 @@ class User(People):
 
   def register_expenses(self, expense):
     self.expenses.append(expense)
+
+  def __str__(self):
+    return f'Nome: {self.name}, Idade: {self.age}'
+    
